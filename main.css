@@ -1,0 +1,38 @@
+.box {
+    height:100px;
+    width: 100px;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    color:white;
+}
+
+.one {
+    background-color: red
+}
+
+.two {
+    background-color: green
+}
+
+.three {
+    background-color: yellow
+}
+
+.flex-container{
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        justify-content:space-around;
+}
+
+@media (max-width: 480px) {
+   .flex-container { 
+       flex-direction:column;
+       align-items:center;
+       justify-content:space-around;
+       }    
+       body{background-color:pink;}
+       }
+       
